@@ -85,6 +85,7 @@ rm(features)
 rm(nameCol)
 
 
+
 #3) use descriptive activity names to name the activites in the data set
 
 #read the activity labels
@@ -141,10 +142,10 @@ names(activityData) <- gsub("[..]","", names(activityData))
 # remove temporar variable f
 rm(f)
 
+
 #5) From the data set in step 4, creates a second, 
 #independent tidy data set with the average of each variable for 
 #each activity and each subject.
-
 
 #tidy date set is created in the following steps:
 #- with the melt function transforms data from activityData from wide format in long format
