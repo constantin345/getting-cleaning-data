@@ -165,7 +165,7 @@ tidy_data <- melt(activityData, id.vars =c("idSubject", "Activity")) %>%
 write.table(tidy_data, "tidy_data_set.txt", row.names=FALSE)
 
 
-#remove from memomory all variables
+#remove from memory all variables
 rm(concatData)
 rm(activityData)
 rm(filterData)
