@@ -37,7 +37,7 @@ The program uses as input the data from the **UCI Har Dataset** directory. This 
       + created the function **prepare** (see run_analysis.R)
       + remove (".Mean" or ".Std") and adding ("Mean_" or "Std_") in front of each element of vector    names(activityData) which contains (".Mean" or ".Std") using functions **sapply** and **prepare** 
       + remove ".." from names(activityData) using gsub R function
- 6. From the data set in step 5, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Tidy date set is created in the following steps:<Enter>  
+6. From the data set in step 5, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Tidy date set is created in the following steps:<Enter>  
       + with the melt function transforms data from activityData from wide format in long format
       + group of the new data after idSubject, Activity and variable
       + compute mean for each group (with summarise)
