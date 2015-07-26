@@ -100,7 +100,7 @@ I describe in [README.md](./README.md) how to create [tidy_data_set.txt](./tidy_
 
 22. **Mean_TimeDomain_BodyAngularVelocityJerkMagnitude** 
 
-          The mean of Time Domain of the body angular velocity jerk magnitude
+          The mean of the body angular velocity jerk magnitude
 
 23. **Mean_FrequencyDomain_BodyAcceleration_on_X** 
 
@@ -184,11 +184,11 @@ I describe in [README.md](./README.md) how to create [tidy_data_set.txt](./tidy_
 
 43. **Std_TimeDomain_BodyAccelerationJerk_on_Y** 
 
-          The standard deviation of the gravity acceleration Jerk on Y
+          The standard deviation of the body acceleration Jerk on Y
 
 44. **Std_TimeDomain_BodyAccelerationJerk_on_Z** 
 
-          The standard deviation of the gravity acceleration Jerk on Z
+          The standard deviation of the body acceleration Jerk on Z
 
 45. **Std_TimeDomain_BodyAngularVelocity_on_X** 
 
