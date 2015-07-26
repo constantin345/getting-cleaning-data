@@ -1,7 +1,8 @@
 # Code book
 
 The [tidy_data_set.txt](./tidy_data_set.txt) file is a subset of Human Activity Recognition Using Smartphones Data Set. (see http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). It contains 68 columns and 180 lines.
-I describe in [README.md](./README.md) how to create [tidy_data_set.txt](./tidy_data_set.txt).
+I describe in [README.md](./README.md) how to create [tidy_data_set.txt](./tidy_data_set.txt) using 
+[run_analysis.R](./run_analysis.R)
 
 ##Description of the variables from tidy data set
 
