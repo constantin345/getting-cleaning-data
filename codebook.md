@@ -6,9 +6,13 @@ I describe in [README.md](./README.md) how to create [tidy_data_set.txt](./tidy_
 
 ##Description of the variables from tidy data set
 
-1. **idSubject**  - id of the  the volunteer participant. Values: integer from 1 to 30
+1. **idSubject**  - id of the  the volunteer participant. 
 
-2. **Activity**
+          Values: integer from 1 to 30
+
+2. **Activity**   - Activities performed by the each volunteer participant.<Enter> 
+
+          Values: Walking, WalkingUpStairs, WalkingDownStairs, Sitting, Standing, Lying
 
 3. **Mean_TimeDomain_BodyAcceleration_on_X** 
 
