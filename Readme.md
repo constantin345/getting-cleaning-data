@@ -7,7 +7,10 @@ The project use data from "Human Activity Recognition Using Smart Phones" projec
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones (1)
 
 ## How the program run_analysis.R works
-The program uses as input the data from the **UCI Har Dataset** directory. This data are imported in R and transformed in a tidy data set.
+The program uses as input the data from the **UCI Har Dataset** directory. 
+
+This data are imported in R and transformed in a tidy data set. 
+I followed the next steps:
 
 1. Bringing data in r<Enter>
       + import the files **subject_test.txt, y_test.txt, X_test.txt** using read.table
